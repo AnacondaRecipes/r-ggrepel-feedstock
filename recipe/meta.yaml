@@ -50,6 +50,7 @@ requirements:
   run:
     - r-base {{ r_version }}
     - {{ native }}gcc-libs         # [win]
+    - {{ native }}gcc-libs-core    # [win]
     - r-rcpp
     - r-ggplot2 >=2.2.0
     - r-rlang >=0.3.0
